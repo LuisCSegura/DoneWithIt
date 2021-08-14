@@ -76,7 +76,7 @@ const Signup = ({ navigation }) => {
             }
             setSubmitting(false);
         }).catch(error=>{
-            console.log(error.JSON());
+            console.log(error);
             setSubmitting(false);
             handleMessage('An error ocurred. Check your network and tray again.');
 
